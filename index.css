@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  margin-bottom: 100px;
+  font-family: "Montserrat", sans-serif;
+  color: #444;
+  line-height: 1.6em;
+  background: #222;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+a,
+a:active,
+a:visited {
+  color: #444;
+}
+
+a:hover {
+  color: #888;
+}
+
+h3 {
+  margin-top: 50px;
+}
+
+.header a {
+  color: #444;
+  text-decoration: none;
+}
+
+.header a {
+  color: #333;
+  text-decoration: none;
+}
+.header-wrapper {
+  background: #eeeef4;
+}
+
+.header {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 35px 0;
+}
+
+.header .home {
+  text-transform: uppercase;
+  font-size: 22px;
+}
+
+.header ul {
+  float: right;
+}
+
+.header li.active a {
+  font-weight: 800;
+}
+
+.header li {
+  list-style-type: none;
+  display: inline-block;
+  padding-left: 10px;
+  text-transform: uppercase;
+}
+
+.header-img-wrapper {
+  background-color: black;
+}
+
+.header-img {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.content-wrapper {
+  background: #fff;
+}
+
+.content {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+
+.content h1 {
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.content section {
+  width: 720px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.footer {
+  background: #222;
+  height: 70px;
+}
+
+.photo {
+  width: 100%;
+}
+
+.grid {
+  display: flex;
+  flex-direction: row;
+}
+
+.grid-column {
+  order: 0;
+  flex-grow: 1;
+}
+
+.grid-column p {
+  margin: 0;
+  padding: 0 30px;
+}
+
+.publications img {
+  width: 100%;
+}
+
+.publications .grid-column-left {
+  display: inline-block;
+  width: 9%;
+}
+.publications .grid-column-right {
+  display: inline-block;
+  width: 90%;
+}
+
+.twitter {
+  font-size: 20px !important;
+  position: relative;
+  top: 1px;
+  color: #555;
+}
