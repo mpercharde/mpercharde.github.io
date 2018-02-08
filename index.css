@@ -13,7 +13,7 @@ ul {
 
 li {
   list-style-type: none;
-  display: inline-block;  
+  display: inline-block;
   padding-right: 10px;
 }
 
@@ -23,6 +23,10 @@ p {
 
 img {
   margin-bottom: 10px;
+}
+
+a {
+  overflow-wrap: break-word;
 }
 
 a,
@@ -117,27 +121,27 @@ h5 {
     background: #222;
     padding: 0;
   }
-  
+
   h1,h2,h3,h4,h5 {
     text-align: left;
   }
-  
+
   .header {
     text-align: left;
     width: 1200px;
     margin: 0 auto;
     padding: 35px 0;
   }
-  
+
   .header ul {
     float: right;
-  }  
-  
+  }
+
   .header-img {
     width: 1200px;
     margin: 0 auto;
   }
-  
+
   .content-wrapper {
     background: #fff;
   }
@@ -215,7 +219,7 @@ h5 {
 
 .photo {
   width: 280px;
-} 
+}
 
 .highlight {
   text-decoration: underline;
