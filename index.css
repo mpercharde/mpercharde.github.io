@@ -39,6 +39,15 @@ h4 {
   font-size: 20px;
   margin-top: 50px;
 }
+
+h5 {
+  font-size: 20px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  font-weight: 200;
+  color: #8597AF;
+}
+
 .header a {
   color: #444;
   text-decoration: none;
@@ -164,4 +173,20 @@ h4 {
   position: relative;
   top: 1px;
   color: #555;
+}
+
+.highlight {
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+.colorize {
+  color: #8597AF;
+  font-weight: 600;
+  /* font-size: 20px; */
+}
+
+i {
+  font-style: italic;
+  font-weight: normal;
 }
