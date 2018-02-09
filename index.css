@@ -128,6 +128,11 @@ h5 {
   /* font-size: 20px; */
 }
 
+.highlight {
+  text-decoration: underline;
+  font-weight: 600;
+}
+
 @media only screen and (min-width: 1200px) {
   body {
     background: #222;
@@ -227,15 +232,3 @@ h5 {
 .photo {
   width: 280px;
 }
-
-.highlight {
-  text-decoration: underline;
-  font-weight: 600;
-}
-
-
-
-/* i {
-  font-style: italic;
-  font-weight: normal;
-} */
