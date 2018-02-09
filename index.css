@@ -122,6 +122,12 @@ h5 {
   margin-bottom: 30px;
 }
 
+.colorize {
+  color: #8597AF;
+  font-weight: 600;
+  /* font-size: 20px; */
+}
+
 @media only screen and (min-width: 1200px) {
   body {
     background: #222;
@@ -227,11 +233,7 @@ h5 {
   font-weight: 600;
 }
 
-.colorize {
-  color: #8597AF;
-  font-weight: 600;
-  /* font-size: 20px; */
-}
+
 
 /* i {
   font-style: italic;
