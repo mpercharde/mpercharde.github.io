@@ -116,6 +116,12 @@ h5 {
   padding: 0 20px;
 }
 
+.content h1 {
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
 @media only screen and (min-width: 1200px) {
   body {
     background: #222;
@@ -153,11 +159,6 @@ h5 {
     min-height: 500px;
   }
 
-  .content h1 {
-    text-align: center;
-    text-transform: uppercase;
-    margin-bottom: 30px;
-  }
 
   .content h2 {
     text-align: center;
@@ -232,7 +233,7 @@ h5 {
   /* font-size: 20px; */
 }
 
-i {
+/* i {
   font-style: italic;
   font-weight: normal;
-}
+} */
