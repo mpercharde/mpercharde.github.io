@@ -60,6 +60,13 @@ h5 {
   color: #8597AF;
 }
 
+h6 {
+  color: #8597AF;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
 .header a {
   color: #444;
   text-decoration: none;
