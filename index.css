@@ -42,6 +42,12 @@ a:hover {
 h1,h2,h3,h4,h5 {
   text-align: center;
 }
+
+h1 {
+  word-spacing: 20px;
+  line-height: 40px;
+}
+
 h3 {
   margin-top: 50px;
 }
