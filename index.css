@@ -49,7 +49,7 @@ h1 {
 }
 
 h3 {
-  margin-top: 50px;
+  margin-top: 10px;
 }
 
 h4 {
@@ -72,6 +72,13 @@ h6 {
   margin-top: 30px;
   margin-bottom: 10px;
 }
+
+/* h7 {
+  color: #8597AF;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+} */
 
 .header a {
   color: #444;
@@ -193,7 +200,7 @@ h6 {
   }
 
   .content section {
-    width: 720px;
+    width: 920px;
     margin: 0 auto;
     padding: 50px 0;
   }
@@ -243,5 +250,5 @@ h6 {
 }
 
 .photo {
-  width: 200px;
+  width: 225px;
 }
