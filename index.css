@@ -202,7 +202,7 @@ h6 {
   .content section {
     width: 920px;
     margin: 0 auto;
-    padding: 50px 0;
+    padding: 20px 0;
   }
 
   .center * {
@@ -222,6 +222,12 @@ h6 {
   .grid-column {
     order: 0;
     flex-grow: 1;
+  }
+
+  .grid-column2 {
+    order: 0;
+    flex-grow: 1;
+    padding: 0 50px;
   }
 
   .grid-column p {
