@@ -54,9 +54,28 @@
             </div> -->
 <!--           Replacing twitter feed with bluesky (2.12.24) -->
 
+        <style>
+          .grid {
+            display: flex;
+            gap: 5px;
+            width: 100%;
+            margin: 0 auto;
+          }
+          .grid-column2 {
+            flex: 1;
+            max-width: 50%;
+            max-height: 1500px;
+            box-sizing: border-box;
+            padding: 5px;
+            border: 1px solid #ccc;
+            overflow-y: auto;
+            overflow-wrap: break-word;
+            background-color: transparent;
+          }
+        </style>
           
           <div class="grid">
-            <div class="grid-column2" style="max-height: 1500px; max-width: 50%; box-sizing: border-box; overflow-y: auto; border: 1px solid #ccc; padding: 10px; background-color: transparent;">
+            <div class="grid-column2">
               <h4>BLUESKY</h4>
               <script type="module" src="https://cdn.jsdelivr.net/npm/bsky-embed/dist/bsky-embed.es.js" async></script> <!-- tool for embedding bluesky feed from https://github.com/Vincenius/bsky-embed -->
                 <bsky-embed
@@ -71,7 +90,7 @@
             </div>
 
             
-          <div class="grid-column2" style="max-height: 1500px; max-width: 50%; box-sizing: border-box; overflow-y: auto; border: 1px solid #ccc; padding: 10px;">
+          <div class="grid-column2">
               <h4>NEWS</h4>
               <h5>25.11.24</h5>
               NEW PREPRINT ALERT: Using CRISPRa, we disentangle the close relationship between Dux and MERVL elements in the induction of the 2-cell like state, <b><a href="https://www.biorxiv.org/content/10.1101/2024.11.25.625195v1", target="_blank">bioRxiv</a>.</b>
