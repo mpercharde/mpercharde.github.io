@@ -148,6 +148,12 @@ h6 {
   /* font-size: 20px; */
 }
 
+.colorize_blue {
+  color: #3f78a8;
+  font-weight: 600;
+  /* font-size: 20px; */
+}
+
 .highlight {
   text-decoration: underline;
   font-weight: 600;
