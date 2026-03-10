@@ -154,6 +154,12 @@ h6 {
   /* font-size: 20px; */
 }
 
+.colorize_green {
+  color: #5c998b;
+  font-weight: 600;
+  /* font-size: 20px; */
+}
+
 .highlight {
   text-decoration: underline;
   font-weight: 600;
